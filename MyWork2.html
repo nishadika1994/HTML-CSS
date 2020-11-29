@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>PHOTOAPP</title>
+    
+    <script>
+                var count = 0;
+                var count2 = 0;
+
+        function change(){
+                if(count = 1){
+                    document.getElementById('myImage') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+                else if(count = 2){
+                    document.getElementById('myImage') 
+                    .src="rose.jpg"; 
+                }
+                else if(count = 3){
+                    document.getElementById('myImage') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+                else if(count = 4){
+                    document.getElementById('myImage') 
+                    .src="rose2.jng"; 
+                }
+        }
+
+        function change2(){
+                if(count2 = 1){
+                    document.getElementById('img1') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+
+                    document.getElementById('im2') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+                else if(count2 = 2){
+                    document.getElementById('img1') 
+                    .src="rose.jpg"; 
+
+                    document.getElementById('img2') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+                else if(count2 = 3){
+                    document.getElementById('img1') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+
+                    document.getElementById('img2') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+                else if(count2 = 4){
+                    document.getElementById('img1') 
+                    .src="rose2.jng"; 
+
+                    document.getElementById('img2') 
+                    .src="Samsung-Galaxy-S20-wallpapers.jpg"; 
+                }
+        }
+
+
+        function before(){ 
+                count = count+1;
+                change();
+
+         } 
+           
+         function after(){ 
+                count = count - 1;
+                change();
+          
+         } 
+
+         function before2(){ 
+                count2 = count2+1;
+                change2();
+
+         } 
+           
+         function after2(){ 
+                count2 = count2 - 1;
+                change2();
+          
+         } 
+
+    </script>
+
+        <meta name="viewport" content="width=devise-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css"href="mywork2.css">
+
+ </head>  
+
+<body>
+
+<!-- Section one Start -->
+
+
+    <div class="layer1">
+        <img src="images/purple-night-sky-pictures.jpg" alt="Notebook" style="width:100%;" height="800px">
+
+                <div class="layer1text">
+                    <a href="">HOME</a>
+                    <a href="">PHOTOAPP</a>
+                        <a href=""><img src="images/camera-icon-png-8.png" alt="Snow" width="45px" height="45px">
+                        </a>
+                        <a href="">DESIGN</a>
+                        <a href="">DOWNLOAD</a>
+                </div>       
+                <div class="layer1text-B">
+                        <h1>YOUR LIFE , A PHOTO</h1>
+                        <h3>Print your life in a simple photo</h3>
+                        <div class="layer1text-Button">
+                            <button>GET STARTED</button>
+                        </div>
+                      
+                </div>    
+                <div class="layer1-link">
+                        <a href=""><img src="images/linkedin-50.png" alt="Snow" width="30px" height="30px">
+                        <a href=""><img src="images/twitter-50.png" alt="Snow" width="30px" height="30px">
+                        <a href=""><img src="images/snapchat-50.png" alt="Snow" width="30px" height="30px">
+                </div>
+         
+     </div> 
+          
+      
+<!-- Section one End -->
+
+<!-- Section two started -->
+    <div class="layer2">
+                  <img src="images/Samsung-Galaxy-S20-wallpapers.jpg" alt="Snow" style="width:100%;" height="500px">
+            <div class="layer2text">
+                 <h2>REPRESENT YOUR LIFE WITH A SIMPLE PHOTO</h2>
+                 <h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></h4>
+            </div>
+            
+            <div class="layer2-button">
+                <button>GET STARTED</button>
+           </div> 
+    </div>
+<!-- Section two end -->
+
+<!-- Section Three start -->
+    
+
+    <div class="layer3">
+        
+            <div class="column left2">
+             <img src="images/sheri-hooley-2RmC748qSVo-unsplash.jpg" id="myImage" alt="" width="300px" height="400px" style="width:100%">
+ 
+            </div>
+            <div class="column right2">
+                <h5>DESIGN</h5>
+                <h6><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></h6>
+                <button>GET STARTED</button>
+               
+                    <h4>01/05</h4>
+                    
+                    <button onclick=before();> < </button>
+
+                    <button onclick=after();> > </button>
+                
+            
+          </div>
+     </div>
+                
+
+<!-- Section Three end -->
+
+<!-- Section Four Start -->
+    <div class="layer4">
+           
+            <div class="column left">
+                <img src="images/camera-icon-png-8.png" alt="" width="60px" height="60px">
+                <h2>OUR COMMIUNITY</h2>
+                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+            </div>
+            <div class="column middle">
+                 <img src="images/rose2.jpg" id="img1" alt="" width="350px" height="300px" style="width:80%">
+            </div>
+           
+            <div class="column right">
+
+                <img src="images/rose2.jpg" id="img2"  alt="" width="350px" height="300px"  style="width:80%">
+
+                <button onclick=before2();> < </button>
+
+                <button onclick=after2();> > </button>
+                
+            </div>
+    </div>
+<!-- Section Four End -->
+
+<!-- Sectin five started -->
+    <div class="layer5">
+        
+            <img src="images/roses.jpg" alt="" style="width:100%;" height="700px">
+                <div class="layer5-text">
+                    <h3>SUSCRIBE TO US COMMUNITY</h3>
+                </div>
+            <input type="email" value="YOUR EMAIL" name="" />
+            <button>V<img src=""></button>
+    </div>
+
+ <!-- Section five end -->
+  
+<!-- Sectin six started -->
+
+    <div class="layer6">
+            <h3>DOWNLOAD IT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button>      APP STORE       <img src="images/ios-android-icon-3.jpg" alt="" width="30px" height="30px">
+                </button>
+                <button>     PLAY STORE      <img src="images/ios-android-icon-4.jpg" alt="" width="30px" height="30px"> </button>
+    </div> 
+
+<!-- Section six end -->
+
+<!-- Section seven start -->
+
+    <div class="layer7">
+        <div class="column left7">
+            <a href="">CREADIT </a><h>|</h>
+            <a href="">PRIVACY </a><h>|</h>
+            <a href="">OUR TEAMS </a>
+            <P>Copyright by phototime - all right reserved</P>  
+        </div> 
+        <div class="column right7">
+            <a href=""><img src="images/camera-icon-png-8.png" alt="Snow" width="40px" height="40px"></a>
+    </div>
+    </div>
+
+<!-- Section seven end -->
+
+
+</body>
+</html>
